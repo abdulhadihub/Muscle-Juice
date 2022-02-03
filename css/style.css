@@ -402,6 +402,6 @@ div.footer{
     }
     
     .logo_text{
-        font-size: unset;
+        margin-top: 15px;
     }
 }
