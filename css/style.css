@@ -400,4 +400,8 @@ div.footer{
     div.logo_bar {
         flex-direction: column;
     }
+    
+    .logo_text{
+        font-size: unset;
+    }
 }
