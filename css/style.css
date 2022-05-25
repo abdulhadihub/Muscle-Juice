@@ -18,13 +18,15 @@ a {
 }
 
 body {
+    /* color addition */
+    background-color: #a0becc;
     font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
 }
 
 div.container {
     width: 100%;
-    max-width: 1366px;
+    /*max-width: 1366px;*/
 }
 
 
@@ -32,6 +34,7 @@ div.container {
 div.logo_bar {
     text-align: center;
     width: 100%;
+    /* background: #f5f5f5; */
     background: #f5f5f5;
     padding: 5px 0px;
     position: relative;
@@ -50,14 +53,14 @@ div.logo_bar {
 div.logo_bar img {
     max-width: 290px;
     width: 100%;
-    transform: scaleX(-1);
+     transform: scaleX(-1); 
 }
 
 .logo_text {
     display: inline-block;
     font-size: 30px;
     font-weight: 900;
-    color: #f6224b;
+    color: black;
     transform: translateY(-50%);
 }
 
@@ -94,7 +97,7 @@ div.nav_menu {
     width: 100%;
     max-width: 75rem;
     padding: 0.7rem 0.7rem;
-    background-color: #f6224b;
+    background-color: #ebd63f;
     margin: 0 auto;
 }
 
@@ -109,18 +112,18 @@ div.nav_menu ul li {
 
 div.nav_menu ul.navigation_bar li a {
     font-weight: 500;
-    color: white;
+    color: black;
 }
 
 div.nav_menu ul.navigation_bar li div ul li:hover {
-    background-color: #df4759;
+    background-color: #f6e34d;
 }
 
 /* dropdown list */
 .arrow {
     position: absolute;
     cursor: pointer;
-    color: white;
+    color: black;
     top: 107px;
 }
 
@@ -135,7 +138,7 @@ div.dropdown_list {
 
 div.dropdown_list ul li {
     padding: 5px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
 }
 
 div.dropdown_list ul li:last-child {
@@ -143,11 +146,12 @@ div.dropdown_list ul li:last-child {
 }
 
 div.nav_menu ul.navigation_bar li:hover div.dropdown_list ul li:hover {
-    background-color: #d3133a;
+    /* background-color: #d3133a; */
+    background-color: #f6e34d;
 }
 
 ul.dropdown_list {
-    background: #f6224b;
+    background: #ebd63f;
     flex-direction: column;
     position: absolute;
     top: 0px;
@@ -207,10 +211,10 @@ section.nav_banner {
 }
 
 .member_btn {
-    color: white;
+    color: black;
     font-weight: 900;
     padding: 10px;
-    background-color: #f6224b;
+    background-color: #ebd63f;
     width: 100%;
     max-width: fit-content;
     border-radius: 5px;
@@ -218,7 +222,8 @@ section.nav_banner {
 }
 
 .member_btn:hover {
-    background-color: #cc153a;
+    /* background-color: #cc153a; */
+    background-color: #f6e34d;
     cursor: pointer;
 }
 
@@ -271,7 +276,8 @@ section.courses {
 
 .content_image_title {
     margin: 10px;
-    color: #f6224b;
+    color: black;
+    font-weight: 800;
 }
 
 .content_image_details {
@@ -331,7 +337,7 @@ div.contact_title {
 
 .submit {
     background-color: #2c7cd1b3;
-    color: white;
+    color: black;
     border-radius: 10px;
     margin: 5px 0px;
 }
@@ -341,7 +347,7 @@ div.contact_title {
 }
 
 .reset {
-    color: white;
+    color: black;
     background-color: #df4759;
     border-radius: 10px;
 }
@@ -352,7 +358,7 @@ div.contact_title {
 
 /* footer */
 section.footer {
-    background-color: #f6224b;
+    background-color: #ebd63f;
     padding: 20px 0px;
 }
 
@@ -364,16 +370,16 @@ div.footer_title {
 }
 
 .fitness {
-    color: white;
+    color: black;
 }
 
 .club {
-    color: white;
+    color: black;
 }
 
 div.footer {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
