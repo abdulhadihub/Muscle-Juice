@@ -51,14 +51,14 @@ div.logo_bar {
 }
 
 div.logo_bar img {
-    max-width: 290px;
+    max-width: 84px;
     width: 100%;
-     transform: scaleX(-1); 
+    /* transform: scaleX(-1); */
 }
 
 .logo_text {
     display: inline-block;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
     color: black;
     transform: translateY(-50%);
@@ -94,6 +94,7 @@ div.logo_bar img {
 }
 
 div.nav_menu {
+    position: relative;
     width: 100%;
     max-width: 75rem;
     padding: 0.7rem 0.7rem;
@@ -124,7 +125,7 @@ div.nav_menu ul.navigation_bar li div ul li:hover {
     position: absolute;
     cursor: pointer;
     color: black;
-    top: 107px;
+    top: 8px;
 }
 
 
@@ -418,4 +419,12 @@ div.footer {
 
 li.active a {
     font-weight: 900;
+}
+
+.blue {
+    color: #647983;
+}
+
+.yellow {
+    color: #ebd63f;
 }
