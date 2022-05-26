@@ -35,23 +35,23 @@ div.logo_bar {
     text-align: center;
     width: 100%;
     /* background: #f5f5f5; */
-    background: #f5f5f5;
-    padding: 5px 0px;
+    background: #a0becc;
+    padding: 27px 0px;
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .logo_image {
     cursor: pointer;
-    order: 2;
+    /* order: 2; */
     width: 100%;
-    max-width: 900px;
+    /* max-width: 900px; */
 }
 
 div.logo_bar img {
-    max-width: 84px;
+    position: absolute;
+    top: 2px;
+    left: 77px;
+    max-width: 95px;
     width: 100%;
     /* transform: scaleX(-1); */
 }
@@ -61,15 +61,16 @@ div.logo_bar img {
     font-size: 40px;
     font-weight: 900;
     color: black;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
 }
 
 .email {
     display: inline-block;
     width: 100%;
     max-width: fit-content;
-    order: 1;
-    position: relative;
+    position: absolute;
+    right: 75px;
+    top: 55px;
 }
 
 .email a {
@@ -77,13 +78,14 @@ div.logo_bar img {
 }
 
 .phone {
-    order: 3;
-    position: relative;
+    position: absolute;
+    right: 75px;
+    top: 30px;
 }
 
 .email_icon {
-    top: -2px;
-    right: -30px;
+    top: -3px;
+    right: 180px;
     position: absolute;
 }
 
@@ -383,6 +385,15 @@ div.footer {
     color: black;
 }
 
+@media screen and (max-width: 820px) {
+
+    .phone,
+    .email,
+    div.logo_bar img {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .banner_text {
         margin: 40px 0 0 0;
@@ -422,7 +433,7 @@ li.active a {
 }
 
 .blue {
-    color: #647983;
+    color: black;
 }
 
 .yellow {
